@@ -17,6 +17,7 @@ namespace EmotionPlatzi.Web.Controllers
         // GET: EmoPictures
         public ActionResult Index()
         {
+            
             return View(db.EmoPictures.ToList());
         }
 
